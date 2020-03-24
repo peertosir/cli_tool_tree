@@ -32,7 +32,7 @@ func readDirsAndFilesTree(name, prefix string, showFiles bool) string {
 	for _, value := range files {
 		if value.IsDir() {
 			result += readDirsAndFilesTree(value.Name(), prefix+"\t", showFiles)
-		} else {
+		} else if showFiles {
 			result += fmt.Sprintf("%v\t%v\n", prefix, value.Name())
 		}
 	}
