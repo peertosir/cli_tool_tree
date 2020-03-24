@@ -1,7 +1,7 @@
 # cli_tool_tree
-Wriiten on Golang
+Written in Golang
 
-To run a program you need Go on your pc
+To run a program you need Go installed on your PC
 
 How to start:
 1. Clone repo in your go/src
